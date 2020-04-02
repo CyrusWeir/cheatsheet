@@ -1,0 +1,36 @@
+table {
+    border: 1px grey;
+    margin:10;
+    padding:0;
+    width: 100%;
+    }
+.info {
+    font-style: italic;
+    width: 60%;
+}
+.explan {
+    width: 25%;
+}
+thead {
+    background-color: rgba(105, 105, 105, 0.288);
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family: helvetica;
+}
+h2 {
+    font-family: helvetica;
+}
+h3 {
+    font-family: helvetica;
+    font-size: 15px;
+}
+h4 {
+    font-family: helvetica;
+} 
+.code p {
+    font-family: monospace;
+    background-color: rgb(175, 175, 175);
+    
+}

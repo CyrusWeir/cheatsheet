@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"    >
+</head>
+<body>
+    <header>
+        <H1>HTML & CSS Cheatsheet</H1>
+        <Nav>
+            <Ul>
+                <li><a href="#html-tables">HTML Tables</a></li>
+                <li><a href="#other-html-tags">HTML Tags</a></li>
+                <li><a href="#html-structure">HTML Structure</a></li>
+                <li><a href="#css-selectors">CSS Selectors and Specificity</a></li>
+                <li><a href="#css-properties">Common CSS Properties</a></li>
+                <li><a href="#html-input">HTML Forms and Other Inputs</a></li>
+            </Ul>
+        </Nav>
+    </header>
+        <section name="html-tables" id="html-tables">
+        <h2>HTML Tables</h2>
+        <p class="intro-text">Tables are a nice, structured way to display your information - they also offer some different options in terms of CSS (borders and the like - I'd imagine they style better, but remains to be seen).</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>&lt;table&gt;</p></td>
+                    <td class="explan"><p>Starts a table</p></td>
+                    <td class="info"><p>Helps to split up into header and body with &lt;thead&gt; & &lt;tbody&gt; functions - works with data appearing in rows - need to specify each row and then each column.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;tr&gt;</p></td>
+                    <td class="explan"><p>Starts a row</p></td>
+                    <td class="info"><p>essential to introduce new text/data into the table - need to use the &lt;td&gt; function to include data in different columns on that row.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;td&gt;</p></td>
+                    <td class="explan"><p>Starts a new cell in a row</p></td>
+                    <td class="info"><p>makes a new cell in the row, and as far as I know, it's the only way to do it!.</p></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </section>
+    <section name="other-html-tags" id="other-html-tags">
+        <h2>Other HTML Tags</h2>
+        <p class="intro-text">Here are some other useful html tags that you've already come accross</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>&lt;video&gt;</p></td>
+                    <td class="explan"><p>embeds a video</p></td>
+                    <td class="info"><p>Will insert a video into your website, however, be careful - needs a closing element as well. i.e. &lt;/video&gt;.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;embed&gt;</p></td>
+                    <td class="explan"><p>inserts a media element</p></td>
+                    <td class="info"><p>a handy element to insert various types of media - doesn't require a classification. At least I don't think it does.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;audio&gt;</p></td>
+                    <td class="explan"><p>Exactly what you'd think</p></td>
+                    <td class="info"><p>pops in dem beatz.</p></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </section>
+    <section name="html-structure" id="html-structure">
+        <h2>HTML Structure</h2>
+        <p class="intro-text">These three elements seem to recurr throughout the HTML language as the typical 3-part structure - seems as though the aristolian narrative had something to it!</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>&lt;Header&gt;</p></td>
+                    <td class="explan"><p>The top bit</p></td>
+                    <td class="info"><p>pops in all the text you'd like at the beginning - i.e. headings.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;body&gt;</p></td>
+                    <td class="explan"><p>The meat</p></td>
+                    <td class="info"><p>Here you can pop in all the juicy data-y bits.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;footer&gt;</p></td>
+                    <td class="explan"><p>the end</p></td>
+                    <td class="info"><p>Used for things like contact details and copywright notices - great for all the really important stuff you don't want anybody else to see!</p></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </section>
+    <section name="css-selectors" id="css-sleectors">
+        <h2>CSS Selectors and Specificity</h2>
+        <p class="intro-text">These CSS labels are very important. They'll help make everything look slightly better than basic, and you'll hopefully be able to master this in no time!</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>class</p></td>
+                    <td class="explan"><p>classifications for styling</p></td>
+                    <td class="info"><p>pop this in the opening element handle, and you can attribute styling by referencing a .classifier label</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>id</p></td>
+                    <td class="explan"><p>The most powerful</p></td>
+                    <td class="info"><p>overrides all the calssifications except the !important identifier - last resort-eque stuff.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>!important</p></td>
+                    <td class="explan"><p>it's for changes that are really important</p></td>
+                    <td class="info"><p>Imagining that this is for "breaking news" style stuff - to br used exceptionally sparingly.</p></td>
+                </tr>
+
+            
+            </tbody>
+        </table>
+    </section>
+    <section name="css-properties" id="css-properties">
+        <h2>Common CSS Properties</h2>
+        <p class="intro-text">These are the things that CSS can change!</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>font</p></td>
+                    <td class="explan"><p>what your text looks like</p></td>
+                    <td class="info"><p>you can change how your text appears and there are further determiners - family, size, style - there's a whole heap!</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>color</p></td>
+                    <td class="explan"><p>changes the color</p></td>
+                    <td class="info"><p>As described on label.</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>borders and stuff</p></td>
+                    <td class="explan"><p>change the appearance of lines</p></td>
+                    <td class="info"><p>Still gotta play with this one - to be seen how it works.</p></td>
+                </tr>
+
+            
+            </tbody>
+        </table>
+    </section>
+    <section name="html-input" id="html-input">
+        <h2>HTML Forms and Other Inputs</h2>
+        <p class="intro-text">These are some of the inputs that we can use when setting up a HTML file</p>
+        <table>
+            <thead>
+                <tr><th></th colspan="3"><h3>Important Tips to remember</h3></tr></th></tr>
+                <tr>
+                    <th><h4>Element</h4></th>
+                    <th><h4>Fuction</h4></th>
+                    <th><h4>Helpful Information</h4></th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"><p>&lt;form&gt;</p></td>
+                    <td class="explan"><p>prepares the page for insertion</p></td>
+                    <td class="info"><p>gotta have this one to open up the forms input context - prep with action="name.html" method="GET"</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;input&gt;</p></td>
+                    <td class="explan"><p>prepares the page for an input</p></td>
+                    <td class="info"><p>needs to be accompanied with a 'type'. Can be radio (yes/no - single response), text, number, can also be accompanied by options (when using the select element)</p></td>
+                </tr>
+
+                <tr>
+                    <td class="code"><p>&lt;label&gt;</p></td>
+                    <td class="explan"><p>preceeds the input element. Essential</p></td>
+                    <td class="info"><p>Needs to include what it's for, and then can feature the text corresponding to the actual input section. The for classification should correspond with the id in the input/select element.</p></td>
+                </tr>
+
+            
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
